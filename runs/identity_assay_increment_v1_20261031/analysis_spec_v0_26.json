@@ -1,0 +1,110 @@
+{
+  "version": "0.26",
+  "date": "2026-10-31",
+  "timing": "Post-hoc scientific questions prompted by v0.23/v0.25 results; this specification is fixed before current fits. This is not preregistration or a new untouched test.",
+  "views": [
+    "FROZEN_MAIN46",
+    "REPORTED_GRAPH29_RETRAINED"
+  ],
+  "qualification": "Select graph29 by the frozen main input reported_graph_qualified=True (checked against current90-row review overlay). This is reported graph association, not certified physical reagent identity. Preserve all endpoint and metadata unknowns.",
+  "grouping": "Recompute connected components of paper AND candidate constitution separately within each view. Preserve all transitive links. Validate MAIN46 closures against v0.23; graph29 may split old components, so never reuse mixed46 group labels for it.",
+  "models": [
+    "TRAIN_MEAN",
+    "TRAIN_MEDIAN",
+    "MORGAN_1NN_TIE_MEAN",
+    "DESCRIPTOR_RIDGE",
+    "DESCRIPTOR_HALF_BLOCK_RIDGE",
+    "DESCRIPTOR_MISSING_RIDGE",
+    "DESCRIPTOR_ASSAY_RIDGE",
+    "ASSAY_RIDGE_EXPANDED",
+    "MISSINGNESS_RIDGE_EXPANDED",
+    "TANIMOTO_KRR",
+    "DESCRIPTOR_RF",
+    "NESTED_CHEM_FAMILY",
+    "NESTED_ALL_FAMILY"
+  ],
+  "lambda_grid": [
+    1e-08,
+    1e-07,
+    1e-06,
+    1e-05,
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "descriptors": "Exactly the ten v0.23 graph-derived physicochemical descriptors, fit-only median/mean/population SD and scaling bysqrt10. Nonchiral Morgan/Tanimoto and raw metadata are unchanged.",
+  "blocks": "D=standardized descriptors/sqrt10; A=existing full8-field numeric/categorical/missing-indicator encoder/sqrt8; M=8missing flags/sqrt8. DESCRIPTOR_HALF_BLOCK_RIDGE usesD/sqrt2 to control for concatenation scaling. D+M and D+A are hstack(D,M)/sqrt2 and hstack(D,A)/sqrt2. All standalone and joint ridge models tune lambda independently inside the same inner groups.",
+  "metadata": "Training-only numeric log transforms/imputation/scaling and observed categorical levels; explicit sourceID/year/author/target/qualification labels are not predictors. Unknown fields stay unknown. Adding context cannot independently identify assay causality when metadata are paper-correlated.",
+  "rf": {
+    "n_estimators": 256,
+    "criterion": "squared_error",
+    "bootstrap": true,
+    "max_depth": null,
+    "min_samples_leaf": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "max_features": [
+      1.0,
+      "sqrt"
+    ],
+    "random_state": 20261031,
+    "n_jobs": 1
+  },
+  "inner_selection": "Leave one remaining training component out; minimize equal-inner-component MAE. Ties1e-12: largerlambda, or largerleaf then sqrt. No outer response used in fitting/selection.",
+  "chem_selector_tie_order": [
+    "TRAIN_MEAN",
+    "TRAIN_MEDIAN",
+    "MORGAN_1NN_TIE_MEAN",
+    "DESCRIPTOR_RIDGE",
+    "TANIMOTO_KRR",
+    "DESCRIPTOR_RF"
+  ],
+  "all_selector_tie_order": [
+    "TRAIN_MEAN",
+    "TRAIN_MEDIAN",
+    "MORGAN_1NN_TIE_MEAN",
+    "DESCRIPTOR_RIDGE",
+    "DESCRIPTOR_MISSING_RIDGE",
+    "DESCRIPTOR_ASSAY_RIDGE",
+    "ASSAY_RIDGE_EXPANDED",
+    "MISSINGNESS_RIDGE_EXPANDED",
+    "TANIMOTO_KRR",
+    "DESCRIPTOR_RF"
+  ],
+  "half_block_control_not_selector_candidate": true,
+  "paired_comparisons": [
+    [
+      "DESCRIPTOR_ASSAY_RIDGE",
+      "DESCRIPTOR_RIDGE"
+    ],
+    [
+      "DESCRIPTOR_ASSAY_RIDGE",
+      "DESCRIPTOR_HALF_BLOCK_RIDGE"
+    ],
+    [
+      "DESCRIPTOR_ASSAY_RIDGE",
+      "DESCRIPTOR_MISSING_RIDGE"
+    ],
+    [
+      "DESCRIPTOR_MISSING_RIDGE",
+      "DESCRIPTOR_RIDGE"
+    ],
+    [
+      "NESTED_ALL_FAMILY",
+      "NESTED_CHEM_FAMILY"
+    ]
+  ],
+  "metrics": "Within each view: query-weighted MAE, equal-component and equal-paper MAE; same-query error deltas from training mean and the five fixed paired comparisons, per-source/per-component results and configuration paths. All13models and bothviews reported.",
+  "view_comparison": "Graph29trained predicts its own29queries using freshly grouped29training data. Compare this with the frozen46-trained predictions evaluated on exactly the same29queries only as a retrospective training/view sensitivity. Both training composition and grouping may change; no causal identity-quality claim or cross-view MAE ranking as simple sample-size improvement.",
+  "validation": "MAIN46 descriptor/kernel/RF/baselines reproduce v0.23; independent primal/SVD/eigen/tree traversal replay; train-only encoders and all source/constitution exclusion checks; selector follows inner scores; graph subset and group closures verified; pair metrics independently recomputed.",
+  "cache": "Identical fit-ID/configuration predictions may be cached to avoid repeated RF fitting. Cache key includes exact sortedfitIDs and family/config; cache predictions for fixed feature-only query bank. No target for held-out query enters a cache fit. Record both logical configuration evaluations and actual cached/fresh fits.",
+  "scope_limits": "No new literature acquisition, biological measurements, external test, interval calibration, source-causal correction, descriptor ablation or source-deletion retraining in this stage. MegaTrans remains deferred. Do not change frozen v0.24 validation candidate based on these post-hoc results.",
+  "stop_rule": "No grid/seed/model/eligibility changes after seeing this run. Preserve unfavorable results and stop once fixed analyses and numerical checks complete."
+}

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: Please cite this versioned data and code release together with the associated manuscript when available.
+title: OAT1 and OAT3 selectivity evidence and assay context
+version: 1.0.0
+date-released: 2026-11-01
+type: dataset
+authors:
+  - family-names: Wei
+    given-names: Bizhi
+license: CC-BY-4.0
+repository-code: https://github.com/Bizhi-Wei/oat1-oat3-selectivity-evidence

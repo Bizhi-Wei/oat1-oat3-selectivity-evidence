@@ -1,0 +1,8 @@
+{
+  "checks_passed": 19,
+  "saved_prediction_max_diff": 3.1086244689504383e-15,
+  "SVD_eigen_max_diff": 6.296132504246543e-10,
+  "forest_manual_max_diff": 3.1086244689504383e-15,
+  "legacy276prediction_max_diff": 0.0,
+  "independent_human_review": false
+}

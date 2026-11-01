@@ -1,0 +1,492 @@
+{
+  "USER_02_OBS_01": {
+    "host_system": null,
+    "probe_oat1": null,
+    "probe_oat3": null,
+    "probe_oat1_uM": null,
+    "probe_oat3_uM": null,
+    "uptake_time_min": null,
+    "uptake_temperature_C": null,
+    "pH": null
+  },
+  "USER_03_OBS_01": {
+    "host_system": null,
+    "probe_oat1": "TENOFOVIR",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": null,
+    "probe_oat3_uM": null,
+    "uptake_time_min": null,
+    "uptake_temperature_C": null,
+    "pH": null
+  },
+  "USER_06_OBS_01": {
+    "host_system": "HEK293",
+    "probe_oat1": "6_CF",
+    "probe_oat3": "6_CF",
+    "probe_oat1_uM": 4.0,
+    "probe_oat3_uM": 4.0,
+    "uptake_time_min": 5.0,
+    "uptake_temperature_C": null,
+    "pH": 7.2
+  },
+  "USER_06_OBS_02": {
+    "host_system": "HEK293",
+    "probe_oat1": "6_CF",
+    "probe_oat3": "6_CF",
+    "probe_oat1_uM": 4.0,
+    "probe_oat3_uM": 4.0,
+    "uptake_time_min": 5.0,
+    "uptake_temperature_C": null,
+    "pH": 7.2
+  },
+  "USER_06_OBS_05": {
+    "host_system": "HEK293",
+    "probe_oat1": "6_CF",
+    "probe_oat3": "6_CF",
+    "probe_oat1_uM": 4.0,
+    "probe_oat3_uM": 4.0,
+    "uptake_time_min": 5.0,
+    "uptake_temperature_C": null,
+    "pH": 7.2
+  },
+  "USER_06_OBS_06": {
+    "host_system": "HEK293",
+    "probe_oat1": "6_CF",
+    "probe_oat3": "6_CF",
+    "probe_oat1_uM": 4.0,
+    "probe_oat3_uM": 4.0,
+    "uptake_time_min": 5.0,
+    "uptake_temperature_C": null,
+    "pH": 7.2
+  },
+  "USER_06_OBS_07": {
+    "host_system": "HEK293",
+    "probe_oat1": "6_CF",
+    "probe_oat3": "6_CF",
+    "probe_oat1_uM": 4.0,
+    "probe_oat3_uM": 4.0,
+    "uptake_time_min": 5.0,
+    "uptake_temperature_C": null,
+    "pH": 7.2
+  },
+  "USER_06_OBS_08": {
+    "host_system": "HEK293",
+    "probe_oat1": "6_CF",
+    "probe_oat3": "6_CF",
+    "probe_oat1_uM": 4.0,
+    "probe_oat3_uM": 4.0,
+    "uptake_time_min": 5.0,
+    "uptake_temperature_C": null,
+    "pH": 7.2
+  },
+  "USER_07_OBS_03": {
+    "host_system": "HEK293",
+    "probe_oat1": "6_CF",
+    "probe_oat3": "6_CF",
+    "probe_oat1_uM": null,
+    "probe_oat3_uM": null,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": null
+  },
+  "USER_07_OBS_04": {
+    "host_system": "HEK293",
+    "probe_oat1": "6_CF",
+    "probe_oat3": "6_CF",
+    "probe_oat1_uM": null,
+    "probe_oat3_uM": null,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": null
+  },
+  "USER_07_OBS_05": {
+    "host_system": "HEK293",
+    "probe_oat1": "6_CF",
+    "probe_oat3": "6_CF",
+    "probe_oat1_uM": null,
+    "probe_oat3_uM": null,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": null
+  },
+  "USER_07_OBS_07": {
+    "host_system": "HEK293",
+    "probe_oat1": "6_CF",
+    "probe_oat3": "6_CF",
+    "probe_oat1_uM": null,
+    "probe_oat3_uM": null,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": null
+  },
+  "USER_07_OBS_09": {
+    "host_system": "HEK293",
+    "probe_oat1": "6_CF",
+    "probe_oat3": "6_CF",
+    "probe_oat1_uM": null,
+    "probe_oat3_uM": null,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": null
+  },
+  "USER_07_OBS_12": {
+    "host_system": "HEK293",
+    "probe_oat1": "6_CF",
+    "probe_oat3": "6_CF",
+    "probe_oat1_uM": null,
+    "probe_oat3_uM": null,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": null
+  },
+  "USER_07_OBS_14": {
+    "host_system": "HEK293",
+    "probe_oat1": "6_CF",
+    "probe_oat3": "6_CF",
+    "probe_oat1_uM": null,
+    "probe_oat3_uM": null,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": null
+  },
+  "USER_07_OBS_15": {
+    "host_system": "HEK293",
+    "probe_oat1": "6_CF",
+    "probe_oat3": "6_CF",
+    "probe_oat1_uM": null,
+    "probe_oat3_uM": null,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": null
+  },
+  "USER_08_OBS_01": {
+    "host_system": null,
+    "probe_oat1": null,
+    "probe_oat3": null,
+    "probe_oat1_uM": null,
+    "probe_oat3_uM": null,
+    "uptake_time_min": null,
+    "uptake_temperature_C": null,
+    "pH": null
+  },
+  "USER_08_OBS_02": {
+    "host_system": null,
+    "probe_oat1": null,
+    "probe_oat3": null,
+    "probe_oat1_uM": null,
+    "probe_oat3_uM": null,
+    "uptake_time_min": null,
+    "uptake_temperature_C": null,
+    "pH": null
+  },
+  "USER_10_OBS_01": {
+    "host_system": "HEK293",
+    "probe_oat1": "6_CF",
+    "probe_oat3": "6_CF",
+    "probe_oat1_uM": null,
+    "probe_oat3_uM": null,
+    "uptake_time_min": 5.0,
+    "uptake_temperature_C": null,
+    "pH": 7.2
+  },
+  "USER_16_OBS_02": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "PRIOR_PAIR_39e4360859a7868b550c": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "PRIOR_PAIR_5e126f3d2edad264f151": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "CIPTEC_PAIR_01": {
+    "host_system": "CIPTEC",
+    "probe_oat1": "FLUORESCEIN",
+    "probe_oat3": "FLUORESCEIN",
+    "probe_oat1_uM": 1.0,
+    "probe_oat3_uM": 1.0,
+    "uptake_time_min": 10.0,
+    "uptake_temperature_C": 37.0,
+    "pH": null
+  },
+  "CIPTEC_PAIR_02": {
+    "host_system": "CIPTEC",
+    "probe_oat1": "FLUORESCEIN",
+    "probe_oat3": "FLUORESCEIN",
+    "probe_oat1_uM": 1.0,
+    "probe_oat3_uM": 1.0,
+    "uptake_time_min": 10.0,
+    "uptake_temperature_C": 37.0,
+    "pH": null
+  },
+  "CIPTEC_PAIR_03": {
+    "host_system": "CIPTEC",
+    "probe_oat1": "FLUORESCEIN",
+    "probe_oat3": "FLUORESCEIN",
+    "probe_oat1_uM": 1.0,
+    "probe_oat3_uM": 1.0,
+    "uptake_time_min": 10.0,
+    "uptake_temperature_C": 37.0,
+    "pH": null
+  },
+  "CIPTEC_PAIR_04": {
+    "host_system": "CIPTEC",
+    "probe_oat1": "FLUORESCEIN",
+    "probe_oat3": "FLUORESCEIN",
+    "probe_oat1_uM": 1.0,
+    "probe_oat3_uM": 1.0,
+    "uptake_time_min": 10.0,
+    "uptake_temperature_C": 37.0,
+    "pH": null
+  },
+  "CIPTEC_PAIR_06": {
+    "host_system": "CIPTEC",
+    "probe_oat1": "FLUORESCEIN",
+    "probe_oat3": "FLUORESCEIN",
+    "probe_oat1_uM": 1.0,
+    "probe_oat3_uM": 1.0,
+    "uptake_time_min": 10.0,
+    "uptake_temperature_C": 37.0,
+    "pH": null
+  },
+  "CIPTEC_PAIR_10": {
+    "host_system": "CIPTEC",
+    "probe_oat1": "FLUORESCEIN",
+    "probe_oat3": "FLUORESCEIN",
+    "probe_oat1_uM": 1.0,
+    "probe_oat3_uM": 1.0,
+    "uptake_time_min": 10.0,
+    "uptake_temperature_C": 37.0,
+    "pH": null
+  },
+  "PF07328948_S7_PAIR": {
+    "host_system": "HEK293",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 0.5,
+    "probe_oat3_uM": 0.1,
+    "uptake_time_min": null,
+    "uptake_temperature_C": null,
+    "pH": null
+  },
+  "NSAID_PRIMARY_02": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "NSAID_PRIMARY_03": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "NSAID_PRIMARY_04": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "NSAID_PRIMARY_05": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "NSAID_PRIMARY_06": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "NSAID_PRIMARY_07": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "NSAID_PRIMARY_08": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "NSAID_PRIMARY_09": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "NSAID_PRIMARY_10": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "NSAID_PRIMARY_11": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "NSAID_PRIMARY_12": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "DIURETICS_PRIMARY_01": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "DIURETICS_PRIMARY_02": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "DIURETICS_PRIMARY_03": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "DIURETICS_PRIMARY_04": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "DIURETICS_PRIMARY_05": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "DIURETICS_PRIMARY_06": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "DIURETICS_PRIMARY_07": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "DIURETICS_PRIMARY_08": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  },
+  "DIURETICS_PRIMARY_09": {
+    "host_system": "S2_MOUSE",
+    "probe_oat1": "PAH",
+    "probe_oat3": "ESTRONE_SULFATE",
+    "probe_oat1_uM": 5.0,
+    "probe_oat3_uM": 0.05,
+    "uptake_time_min": 2.0,
+    "uptake_temperature_C": 37.0,
+    "pH": 7.4
+  }
+}

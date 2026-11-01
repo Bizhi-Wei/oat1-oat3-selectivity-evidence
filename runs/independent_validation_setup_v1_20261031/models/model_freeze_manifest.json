@@ -1,0 +1,13 @@
+{
+  "bundle_path": "runs/independent_validation_setup_v1_20261031/models/frozen_candidate.json",
+  "bundle_sha256": "fac0657d226cdcb1c3874649480dc70e7d6b552d0c7a1a32528e773863b00c78",
+  "selected_family": "DESCRIPTOR_RIDGE",
+  "selected_config": {
+    "lambda": 0.1
+  },
+  "frozen_before_new_eligible_test_response_acquisition": true,
+  "eligible_test_records_acquired": 0,
+  "internal_inference_roundtrip_max_diff": 0.0,
+  "internal_roundtrip_is_not_external_performance": true,
+  "outcome_fields_rejected": true
+}

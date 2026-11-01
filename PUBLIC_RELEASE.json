@@ -1,0 +1,13 @@
+{
+  "name": "OAT1/OAT3 selectivity evidence and assay-context evaluation",
+  "version": "1.0.0",
+  "date": "2026-11-01",
+  "author": "Bizhi Wei",
+  "related_paper_doi": "10.1016/j.insi.2026.100707",
+  "related_paper_is_different_study": true,
+  "source_ledger_rows": 90,
+  "main_rows": 46,
+  "reported_graph_rows": 29,
+  "external_validation": false,
+  "interval_calibration": false
+}
