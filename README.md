@@ -1,6 +1,6 @@
 # OAT1 and OAT3 selectivity evidence and assay context
 
-Version1.0.0 contains the data and code supporting an exploratory evaluation of paired OAT1/OAT3 inhibition selectivity under chemical distribution shift. It is distinct from the author's published single-target OAT1 docking benchmark (doi:10.1016/j.insi.2026.100707); the old docking dataset DOI must not be used to identify this release.
+Version1.0.1 contains the data and code supporting an exploratory evaluation of paired OAT1/OAT3 inhibition selectivity under chemical distribution shift. It is distinct from the author's published single-target OAT1 docking benchmark (doi:10.1016/j.insi.2026.100707); the old docking dataset DOI must not be used to identify this release.
 
 ## Scientific scope
 
