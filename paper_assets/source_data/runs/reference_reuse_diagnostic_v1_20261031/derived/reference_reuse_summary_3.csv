@@ -1,0 +1,4 @@
+﻿arm,query_reference_partitions,unique_queries,same_source_query_reference_fraction,same_constitution_query_reference_fraction,mean_nearest_tanimoto,strictly_equal_fit_rows_for_every_query,sampling_pool_equals_fit_size_partitions
+STRICT_SOURCE_CONSTITUTION,46,46,0,0,0.24548920314963107,True,46
+MATCHED_EXCLUDE_SOURCE,920,46,0,0.09456521739130434,0.32012883158031286,True,280
+MATCHED_ALLOW_SOURCE,920,46,0.8847826086956522,0.07282608695652174,0.40692016586518326,True,80

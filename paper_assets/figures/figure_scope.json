@@ -1,0 +1,17 @@
+{
+  "source_metrics": "derived/metrics_10.csv",
+  "source_groups": "derived/fold_metrics_90.csv",
+  "model_order": [
+    "TRAIN_MEAN",
+    "TRAIN_MEDIAN",
+    "MORGAN_1NN_TIE_MEAN",
+    "JOINT_RIDGE_ORIGINAL_GRID_REPLAY",
+    "JOINT_RIDGE_EXPANDED",
+    "STRUCTURE_RIDGE_EXPANDED",
+    "DESCRIPTOR_RIDGE",
+    "TANIMOTO_KRR",
+    "DESCRIPTOR_RF",
+    "NESTED_FAMILY_SELECTION"
+  ],
+  "legend_scope": "No error bars, p values, calibration, or independent external-test claim. All10 comparisons retained."
+}

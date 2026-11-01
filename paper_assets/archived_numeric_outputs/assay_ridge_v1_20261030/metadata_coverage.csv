@@ -1,0 +1,9 @@
+﻿field,main_rows,known_main_rows,known_main_studies,missing_main_rows,distinct_observed_values
+host_system,46,42,9,4,CIPTEC|HEK293|S2_MOUSE
+probe_oat1,46,43,10,3,6_CF|FLUORESCEIN|PAH|TENOFOVIR
+probe_oat3,46,43,10,3,6_CF|ESTRONE_SULFATE|FLUORESCEIN
+probe_oat1_uM,46,33,7,13,0.5|1.0|4.0|5.0
+probe_oat3_uM,46,33,7,13,0.05|0.1|1.0|4.0
+uptake_time_min,46,41,8,5,10.0|2.0|5.0
+uptake_temperature_C,46,34,6,12,37.0
+pH,46,27,6,19,7.2|7.4

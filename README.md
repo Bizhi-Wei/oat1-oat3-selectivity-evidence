@@ -1,6 +1,6 @@
 # OAT1 and OAT3 selectivity evidence and assay context
 
-Version1.0.1 contains the data and code supporting an exploratory evaluation of paired OAT1/OAT3 inhibition selectivity under chemical distribution shift. It is distinct from the author's published single-target OAT1 docking benchmark (doi:10.1016/j.insi.2026.100707); the old docking dataset DOI must not be used to identify this release.
+Version1.1.0 contains the data and code supporting an exploratory evaluation of paired OAT1/OAT3 inhibition selectivity under chemical distribution shift. It is distinct from the author's published single-target OAT1 docking benchmark (doi:10.1016/j.insi.2026.100707); the old docking dataset DOI must not be used to identify this release.
 
 ## Scientific scope
 
@@ -38,3 +38,10 @@ The former110-observation/27-source response inventory is not a complete footpri
 ## Rights and citation
 
 Original code is released underMIT. Author-created curation annotations and derived outputs useCC BY4.0; pre-existing source measurements, citations and database identifiers retain their original attribution and rights. This license does not relicense third-party articles or figures. SeeTHIRD_PARTY_NOTICES.md and CITATION.cff. This repository contains data/code, not the unpublished manuscript or the author's supplied published PDF.
+
+
+## Whole-manuscript figure and table sources
+
+The paper_assets directory supplies the complete preserved numerical companion,10rendered tables and9figure references, with local relative links, exact source-data copies and all original plot assets. Additional archived numerical prediction and retention tables are included separately. These are different analysis stages; do not concatenate them as independent observations. The core19-check numerical replay remains the authoritative saved-model verification. The manuscript prose is not redistributed in this data/code release.
+
+The source ledger contains legacy eligibility fields alongside later review overlays. Use the49-row outcomes file with in_main=True for the actual46-row mixed analysis. Report-associated graphs are not certified physical test articles. A legacy eligibility label does not upgrade an unresolved endpoint or identity.

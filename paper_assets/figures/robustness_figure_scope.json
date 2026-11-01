@@ -1,0 +1,23 @@
+{
+  "all_families": [
+    "TRAIN_MEAN",
+    "TRAIN_MEDIAN",
+    "MORGAN_1NN_TIE_MEAN",
+    "JOINT_RIDGE_ORIGINAL_GRID_REPLAY",
+    "JOINT_RIDGE_EXPANDED",
+    "STRUCTURE_RIDGE_EXPANDED",
+    "DESCRIPTOR_RIDGE",
+    "TANIMOTO_KRR",
+    "DESCRIPTOR_RF",
+    "NESTED_FAMILY_SELECTION"
+  ],
+  "strata": [
+    "ALL46",
+    "REPORTED_GRAPH29",
+    "OTHER_IDENTITY17"
+  ],
+  "new_fits": 0,
+  "identity_certification": false,
+  "feature_decomposition_is_causal": false,
+  "intervals_or_significance_claim": false
+}

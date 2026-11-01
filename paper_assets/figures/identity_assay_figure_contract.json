@@ -1,0 +1,30 @@
+{
+  "conclusion": "Chemical-family gains do not persist after graph29 retraining; assay increments depend on the view, weighting and controls.",
+  "archetype": "quantitative grid",
+  "backend": "Python/matplotlib",
+  "dimensions_inches": {
+    "Figure6": [
+      7.2,
+      5.4
+    ],
+    "FigureS3": [
+      7.2,
+      3.5
+    ]
+  },
+  "panels": "Separate46/29 views; all13 procedures in Figure6, all5 fixed comparisons in FigureS3.",
+  "n_definition": "46 records/12 papers/9 components and29 records/8 papers/8 components; records are not independent laboratory replicates.",
+  "split": "Outer joint source-and-constitution components, fresh graph29 components; inner component tuning only.",
+  "metric": "Query-weighted and equal-component MAE; FigureS3 is candidate minus comparator.",
+  "intervals": "None; dots are estimands, not uncertainty intervals. No significance tests.",
+  "source_data": [
+    "derived/overall_metrics_26.csv",
+    "derived/paired_assay_comparisons_10.csv"
+  ],
+  "exports": [
+    "editable SVG",
+    "PDF",
+    "400dpi PNG"
+  ],
+  "journal": "Exploratory manuscript draft; no journal-specific final compliance claim."
+}
